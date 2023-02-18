@@ -261,7 +261,8 @@
                     "earningsAboveUEL": 0.0325
                 }
             ]
-        },        {
+        },
+        {
             "applicableFrom": "2022-11-06",
             "applicableTill": "2023-04-05",
             "niThresholds": [
