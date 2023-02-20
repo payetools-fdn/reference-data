@@ -150,45 +150,44 @@
                 },
                 {
                     "thresholdName": "Directors Primary Threshold",
-                    "perWeek": 2,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 229,
+                    "perYear": 11908
                 },
                 {
                     "thresholdName": "Secondary Threshold",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 175,
+                    "perMonth": 758,
+                    "perYear": 9100
                 },
                 {
                     "thresholdName": "Freeport Upper Secondary Threshold",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 481,
+                    "perMonth": 2083,
+                    "perYear": 25000
                 },
                 {
                     "thresholdName": "Upper Secondary Threshold",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 },
                 {
                     "thresholdName": "Apprentice Upper Secondary Threshold",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 },
                 {
                     "thresholdName": "Veterans Upper Secondary Threshold",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 },
                 {
                     "thresholdName": "Upper Earnings Limit",
-                    "perWeek": 123,
-                    "perMonth": 533,
-                    "perYear": 6396
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 }
             ],
             "employerRates": [
@@ -203,6 +202,30 @@
                     "earningsAboveSTUpToAndIncludingFUST": 0.1505,
                     "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1505,
                     "earningsAboveUELOrUST": 0.1505
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1505,
+                    "earningsAboveUELOrUST": 0.1505
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.1505
                 }
             ],
             "employeeRates": [
@@ -212,12 +235,119 @@
                         "F",
                         "H",
                         "M",
-                        "V",
-                        "Z"
+                        "V"
                     ],
                     "earningsAtOrAboveLELUpTAndIncludingPT": 0,
                     "earningsAbovePTUpToAndIncludingUEL": 0.1325,
                     "earningsAboveUEL": 0.0325
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.071,
+                    "earningsAboveUEL": 0.0325
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0325,
+                    "earningsAboveUEL": 0.0325
+                }
+            ],
+            "directorEmployerRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "B",
+                        "C",
+                        "J"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0.1453,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.1453
+                }
+            ],
+            "directorEmployeeRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "F",
+                        "H",
+                        "M",
+                        "V"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.1273,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0658,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0273,
+                    "earningsAboveUEL": 0.0273
                 }
             ]
         },
@@ -230,6 +360,53 @@
                     "perWeek": 123,
                     "perMonth": 533,
                     "perYear": 6396
+                },
+                {
+                    "thresholdName": "Primary Threshold",
+                    "perWeek": 242,
+                    "perMonth": 1048,
+                    "perYear": 12570
+                },
+                {
+                    "thresholdName": "Directors Primary Threshold",
+                    "perWeek": 229,
+                    "perYear": 11908
+                },
+                {
+                    "thresholdName": "Secondary Threshold",
+                    "perWeek": 175,
+                    "perMonth": 758,
+                    "perYear": 9100
+                },
+                {
+                    "thresholdName": "Freeport Upper Secondary Threshold",
+                    "perWeek": 481,
+                    "perMonth": 2083,
+                    "perYear": 25000
+                },
+                {
+                    "thresholdName": "Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Apprentice Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Veterans Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Upper Earnings Limit",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 }
             ],
             "employerRates": [
@@ -244,6 +421,30 @@
                     "earningsAboveSTUpToAndIncludingFUST": 0.1505,
                     "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1505,
                     "earningsAboveUELOrUST": 0.1505
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1505,
+                    "earningsAboveUELOrUST": 0.1505
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.1505
                 }
             ],
             "employeeRates": [
@@ -253,12 +454,119 @@
                         "F",
                         "H",
                         "M",
-                        "V",
-                        "Z"
+                        "V"
                     ],
                     "earningsAtOrAboveLELUpTAndIncludingPT": 0,
                     "earningsAbovePTUpToAndIncludingUEL": 0.1325,
                     "earningsAboveUEL": 0.0325
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.071,
+                    "earningsAboveUEL": 0.0325
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0325,
+                    "earningsAboveUEL": 0.0325
+                }
+            ],
+            "directorEmployerRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "B",
+                        "C",
+                        "J"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0.1453,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.1453
+                }
+            ],
+            "directorEmployeeRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "F",
+                        "H",
+                        "M",
+                        "V"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.1273,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0658,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0273,
+                    "earningsAboveUEL": 0.0273
                 }
             ]
         },
@@ -271,6 +579,53 @@
                     "perWeek": 123,
                     "perMonth": 533,
                     "perYear": 6396
+                },
+                {
+                    "thresholdName": "Primary Threshold",
+                    "perWeek": 242,
+                    "perMonth": 1048,
+                    "perYear": 12570
+                },
+                {
+                    "thresholdName": "Directors Primary Threshold",
+                    "perWeek": 229,
+                    "perYear": 11908
+                },
+                {
+                    "thresholdName": "Secondary Threshold",
+                    "perWeek": 175,
+                    "perMonth": 758,
+                    "perYear": 9100
+                },
+                {
+                    "thresholdName": "Freeport Upper Secondary Threshold",
+                    "perWeek": 481,
+                    "perMonth": 2083,
+                    "perYear": 25000
+                },
+                {
+                    "thresholdName": "Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Apprentice Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Veterans Upper Secondary Threshold",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
+                },
+                {
+                    "thresholdName": "Upper Earnings Limit",
+                    "perWeek": 967,
+                    "perMonth": 4189,
+                    "perYear": 50270
                 }
             ],
             "employerRates": [
@@ -282,9 +637,33 @@
                         "J"
                     ],
                     "earningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "earningsAboveSTUpToAndIncludingFUST": 0.1505,
-                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1505,
-                    "earningsAboveUELOrUST": 0.1505
+                    "earningsAboveSTUpToAndIncludingFUST": 0.138,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.138,
+                    "earningsAboveUELOrUST": 0.138
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.138,
+                    "earningsAboveUELOrUST": 0.138
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.138
                 }
             ],
             "employeeRates": [
@@ -294,12 +673,119 @@
                         "F",
                         "H",
                         "M",
-                        "V",
+                        "V"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.12,
+                    "earningsAboveUEL": 0.02
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0585,
+                    "earningsAboveUEL": 0.02
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
                         "Z"
                     ],
                     "earningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "earningsAbovePTUpToAndIncludingUEL": 0.1325,
-                    "earningsAboveUEL": 0.0325
+                    "earningsAbovePTUpToAndIncludingUEL": 0.02,
+                    "earningsAboveUEL": 0.02
+                }
+            ],
+            "directorEmployerRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "B",
+                        "C",
+                        "J"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0.1453,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "F",
+                        "I",
+                        "L",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
+                    "earningsAboveUELOrUST": 0.1453
+                },
+                {
+                    "niCategories": [
+                        "H",
+                        "M",
+                        "V",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpToAndIncludingST": 0,
+                    "earningsAboveSTUpToAndIncludingFUST": 0,
+                    "earningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+                    "earningsAboveUELOrUST": 0.1453
+                }
+            ],
+            "directorEmployeeRates": [
+                {
+                    "niCategories": [
+                        "A",
+                        "F",
+                        "H",
+                        "M",
+                        "V"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.1273,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "B",
+                        "I"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0658,
+                    "earningsAboveUEL": 0.0273
+                },
+                {
+                    "niCategories": [
+                        "C",
+                        "S"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0,
+                    "earningsAboveUEL": 0
+                },
+                {
+                    "niCategories": [
+                        "J",
+                        "L",
+                        "Z"
+                    ],
+                    "earningsAtOrAboveLELUpTAndIncludingPT": 0,
+                    "earningsAbovePTUpToAndIncludingUEL": 0.0273,
+                    "earningsAboveUEL": 0.0273
                 }
             ]
         }
