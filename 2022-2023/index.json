@@ -135,7 +135,7 @@
     "nationalInsurance": [
         {
             "applicableFrom": "2022-04-06",
-            "applicableTill": "2023-07-05",
+            "applicableTill": "2022-07-05",
             "niThresholds": [
                 {
                     "thresholdName": "Lower Earnings Limit",
@@ -354,7 +354,7 @@
         },
         {
             "applicableFrom": "2022-07-06",
-            "applicableTill": "2023-11-05",
+            "applicableTill": "2022-11-05",
             "niThresholds": [
                 {
                     "thresholdName": "Lower Earnings Limit",
