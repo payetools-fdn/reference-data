@@ -1,5 +1,6 @@
 {
     "applicableTaxYearEnding": "Apr5_2023",
+    "version": "1.0",
     "incomeTax": [
         {
             "applicableFrom": "2022-04-06",
