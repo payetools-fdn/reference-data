@@ -796,7 +796,11 @@
         {
             "applicableFrom": "2022-04-06",
             "applicableTill": "2023-04-05",
-            "nmwEntries": []
+            "apprenticeLevel": 4.81,
+            "under18Level": 4.81,
+            "age18To20Level": 6.83,
+            "age21To22Level": 9.18,
+            "age23AndAboveLevel": 9.50
         }
     ],
     "studentLoans": [
