@@ -807,7 +807,30 @@
         {
             "applicableFrom": "2022-04-06",
             "applicableTill": "2023-04-05",
-            "studentLoanEntries": []
+            "plan1Thresholds": {
+                "perWeek": 388.36,
+                "perMonth": 1682.91,
+                "perYear": 20195
+            },
+            "plan2Thresholds": {
+                "perWeek": 524.90,
+                "perMonth": 2274.58,
+                "perYear": 27295
+            },
+            "plan4Thresholds": {
+                "perWeek": 487.98,
+                "perMonth": 2114.58,
+                "perYear": 25375 
+            },
+            "postGradThresholds": {
+                "perWeek": 403.84,
+                "perMonth": 1750,
+                "perYear": 21000
+            },
+            "deductionRates": {
+                "student": 0.09,
+                "postGrad": 0.06
+            }
         }
     ],
     "pensions": [
