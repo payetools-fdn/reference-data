@@ -271,86 +271,6 @@
                     "forEarningsAbovePTUpToAndIncludingUEL": 0.0325,
                     "forEarningsAboveUEL": 0.0325
                 }
-            ],
-            "directorEmployerRates": [
-                {
-                    "niCategories": [
-                        "A",
-                        "B",
-                        "C",
-                        "J"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0.1453,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
-                    "forEarningsAboveUELOrUST": 0.1453
-                },
-                {
-                    "niCategories": [
-                        "F",
-                        "I",
-                        "L",
-                        "S"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
-                    "forEarningsAboveUELOrUST": 0.1453
-                },
-                {
-                    "niCategories": [
-                        "H",
-                        "M",
-                        "V",
-                        "Z"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0,
-                    "forEarningsAboveUELOrUST": 0.1453
-                }
-            ],
-            "directorEmployeeRates": [
-                {
-                    "niCategories": [
-                        "A",
-                        "F",
-                        "H",
-                        "M",
-                        "V"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.1273,
-                    "forEarningsAboveUEL": 0.0273
-                },
-                {
-                    "niCategories": [
-                        "B",
-                        "I"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.0658,
-                    "forEarningsAboveUEL": 0.0273
-                },
-                {
-                    "niCategories": [
-                        "C",
-                        "S"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0,
-                    "forEarningsAboveUEL": 0
-                },
-                {
-                    "niCategories": [
-                        "J",
-                        "L",
-                        "Z"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.0273,
-                    "forEarningsAboveUEL": 0.0273
-                }
             ]
         },
         {
@@ -489,86 +409,6 @@
                     "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
                     "forEarningsAbovePTUpToAndIncludingUEL": 0.0325,
                     "forEarningsAboveUEL": 0.0325
-                }
-            ],
-            "directorEmployerRates": [
-                {
-                    "niCategories": [
-                        "A",
-                        "B",
-                        "C",
-                        "J"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0.1453,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
-                    "forEarningsAboveUELOrUST": 0.1453
-                },
-                {
-                    "niCategories": [
-                        "F",
-                        "I",
-                        "L",
-                        "S"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.1453,
-                    "forEarningsAboveUELOrUST": 0.1453
-                },
-                {
-                    "niCategories": [
-                        "H",
-                        "M",
-                        "V",
-                        "Z"
-                    ],
-                    "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
-                    "forEarningsAboveSTUpToAndIncludingFUST": 0,
-                    "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0,
-                    "forEarningsAboveUELOrUST": 0.1453
-                }
-            ],
-            "directorEmployeeRates": [
-                {
-                    "niCategories": [
-                        "A",
-                        "F",
-                        "H",
-                        "M",
-                        "V"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.1273,
-                    "forEarningsAboveUEL": 0.0273
-                },
-                {
-                    "niCategories": [
-                        "B",
-                        "I"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.0658,
-                    "forEarningsAboveUEL": 0.0273
-                },
-                {
-                    "niCategories": [
-                        "C",
-                        "S"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0,
-                    "forEarningsAboveUEL": 0
-                },
-                {
-                    "niCategories": [
-                        "J",
-                        "L",
-                        "Z"
-                    ],
-                    "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
-                    "forEarningsAbovePTUpToAndIncludingUEL": 0.0273,
-                    "forEarningsAboveUEL": 0.0273
                 }
             ]
         },
@@ -820,7 +660,7 @@
             "plan4Thresholds": {
                 "perWeek": 487.98,
                 "perMonth": 2114.58,
-                "perYear": 25375 
+                "perYear": 25375
             },
             "postGradThresholds": {
                 "perWeek": 403.84,
@@ -837,6 +677,7 @@
         {
             "applicableFrom": "2022-04-06",
             "applicableTill": "2023-04-05",
+            "basicRateOfTaxForTaxRelief": 0.2,
             "qualifyingEarningsLowerLevel": {
                 "perWeek": 120,
                 "perTwoWeeks": 240,
