@@ -135,7 +135,7 @@
     "nationalInsurance": [
       {
         "applicableFrom": "2023-04-06",
-        "applicableTill": "2024-04-05",
+        "applicableTill": "2023-12-31",
         "niThresholds": [
           {
             "thresholdName": "Lower Earnings Limit",
@@ -241,6 +241,146 @@
             ],
             "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
             "forEarningsAbovePTUpToAndIncludingUEL": 0.12,
+            "forEarningsAboveUEL": 0.02
+          },
+          {
+            "niCategories": [
+              "B",
+              "I"
+            ],
+            "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
+            "forEarningsAbovePTUpToAndIncludingUEL": 0.0585,
+            "forEarningsAboveUEL": 0.02
+          },
+          {
+            "niCategories": [
+              "C",
+              "S"
+            ],
+            "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
+            "forEarningsAbovePTUpToAndIncludingUEL": 0,
+            "forEarningsAboveUEL": 0
+          },
+          {
+            "niCategories": [
+              "J",
+              "L",
+              "Z"
+            ],
+            "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
+            "forEarningsAbovePTUpToAndIncludingUEL": 0.02,
+            "forEarningsAboveUEL": 0.02
+          }
+        ]
+      },
+      {
+        "applicableFrom": "2024-01-01",
+        "applicableTill": "2024-04-05",
+        "niThresholds": [
+          {
+            "thresholdName": "Lower Earnings Limit",
+            "perWeek": 123,
+            "perMonth": 533,
+            "perYear": 6396
+          },
+          {
+            "thresholdName": "Primary Threshold",
+            "perWeek": 242,
+            "perMonth": 1048,
+            "perYear": 12570
+          },
+          {
+            "thresholdName": "Directors Primary Threshold",
+            "perWeek": 242,
+            "perMonth": 1048,
+            "perYear": 12570
+          },
+          {
+            "thresholdName": "Secondary Threshold",
+            "perWeek": 175,
+            "perMonth": 758,
+            "perYear": 9100
+          },
+          {
+            "thresholdName": "Freeport Upper Secondary Threshold",
+            "perWeek": 481,
+            "perMonth": 2083,
+            "perYear": 25000
+          },
+          {
+            "thresholdName": "Upper Secondary Threshold",
+            "perWeek": 967,
+            "perMonth": 4189,
+            "perYear": 50270
+          },
+          {
+            "thresholdName": "Apprentice Upper Secondary Threshold",
+            "perWeek": 967,
+            "perMonth": 4189,
+            "perYear": 50270
+          },
+          {
+            "thresholdName": "Veterans Upper Secondary Threshold",
+            "perWeek": 967,
+            "perMonth": 4189,
+            "perYear": 50270
+          },
+          {
+            "thresholdName": "Upper Earnings Limit",
+            "perWeek": 967,
+            "perMonth": 4189,
+            "perYear": 50270
+          }
+        ],
+        "employerRates": [
+          {
+            "niCategories": [
+              "A",
+              "B",
+              "C",
+              "J"
+            ],
+            "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
+            "forEarningsAboveSTUpToAndIncludingFUST": 0.138,
+            "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.138,
+            "forEarningsAboveUELOrUST": 0.138
+          },
+          {
+            "niCategories": [
+              "F",
+              "I",
+              "L",
+              "S"
+            ],
+            "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
+            "forEarningsAboveSTUpToAndIncludingFUST": 0,
+            "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0.138,
+            "forEarningsAboveUELOrUST": 0.138
+          },
+          {
+            "niCategories": [
+              "H",
+              "M",
+              "V",
+              "Z"
+            ],
+            "forEarningsAtOrAboveLELUpToAndIncludingST": 0,
+            "forEarningsAboveSTUpToAndIncludingFUST": 0,
+            "forEarningsAboveFUSTUpToAndIncludingUELOrUST": 0,
+            "forEarningsAboveUELOrUST": 0.138
+          }
+        ],
+        "employeeRates": [
+          {
+            "niCategories": [
+              "A",
+              "F",
+              "H",
+              "M",
+              "V"
+            ],
+            "forEarningsAtOrAboveLELUpTAndIncludingPT": 0,
+            "forEarningsAbovePTUpToAndIncludingUEL": 0.10,
             "forEarningsAboveUEL": 0.02
           },
           {
